@@ -6,14 +6,6 @@ import java.io.IOException;
  */
 public class FsLoaderMain {
 
-    /*
-    *
-    * /Users/DmitriyBrosalin/FsAvroLoader/src/main/resources/test.avcs
-    * /Users/DmitriyBrosalin/BigData/AvroFiles
-    * 5
-    * 5
-    * */
-
     public static void main(String[] args) throws IOException {
         if(args.length < 0){
             System.exit(1);
