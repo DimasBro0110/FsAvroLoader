@@ -7,7 +7,7 @@ import java.io.IOException;
 public class FsLoaderMain {
 
     public static void main(String[] args) throws IOException {
-        if(args.length < 0){
+        if(args.length < 4){
             System.exit(1);
         }else{
             String pathToAvroSchema = args[0];
